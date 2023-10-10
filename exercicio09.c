@@ -14,7 +14,9 @@ main(){
             }
         }while(valores[i] % 2 != 0);
     }
-
+    for(int i = 5; i >-0; i--){
+        printf("\n%d", valores[i]);
+    }
 }
 
 
