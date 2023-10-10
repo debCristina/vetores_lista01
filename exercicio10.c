@@ -2,8 +2,8 @@
 
 main(){
 
-    float notas[15], mediaGeral; 
-    int soma=0, aluno=1; 
+    float notas[15], mediaGeral,soma=0; 
+    int aluno=1; 
 
     for(int i = 0; i <15; i++){
         printf("\nNota do aluno %d: ", aluno);
