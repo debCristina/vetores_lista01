@@ -3,12 +3,10 @@
 main(){
 
     float notas[15], mediaGeral,soma=0; 
-    int aluno=1; 
 
     for(int i = 0; i <15; i++){
         printf("\nNota do aluno %d: ", aluno);
         scanf("%f", &notas[i]);
-        aluno ++;
         soma+= notas[i];
     }
 
