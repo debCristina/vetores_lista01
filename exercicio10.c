@@ -1,16 +1,17 @@
 #include<stdio.h>
+#define TAM 4
 
 main(){
 
-    float notas[15], mediaGeral,soma=0; 
+    float notas[TAM], mediaGeral,soma=0; 
 
-    for(int i = 0; i <15; i++){
+    for(int i = 0; i <TAM; i++){
         printf("\nNota do aluno %d: ", aluno);
         scanf("%f", &notas[i]);
         soma+= notas[i];
     }
 
-    mediaGeral= soma / 15;
+    mediaGeral= soma / TAM;
     printf("Media Geral da turma: %.2f", mediaGeral);
 }
 
